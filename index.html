@@ -1,12 +1,120 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="github/09-dec-24-Nicofaris/css/style.css">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TRAVELID</title>
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="home-icon">
+                <h2><b>TRAVELID</b></h2>
+            </div>
+            <nav class="nav">
+                <a class="nav-left" href="#home">Home</a>
+                <a class="nav-center" href="#our-package">Our Package</a>
+                <a class="nav-right" href="#call-us">Call Us</a>
+            </nav>
+        </header>
+        <hr/>
+        <main>
+            <header class="content-header">
+                <h1>Your Trusted Travel Agent's</h1>
+                <br>
+                <h4>Your Happiness is Our Happiness</h4>
+            </header>
+
+            <!-- Home Content -->
+            <section id="home" class="main-container">
+                <!-- Banner AutoSlide Content -->
+                <aside>
+                    <div class="banner-img">
+                        <img class="banner-slide" src="assets/bedugul.jpg" alt="Banner 1">
+                        <img class="banner-slide" src="assets/monas.jpg" alt="Banner 2">
+                        <img class="banner-slide" src="assets/monumen_kapal_selam.jpg" alt="Banner 3">
+                    </div>
+                </aside>
+
+                <!-- Form Contact Us -->
+                <form id="contactForm" class="main-item">
+                    <h2 class="contact-header">Contact Us</h2>
+                    <p class="contact-message">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                    <div class="form-field">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="your name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="interest">What are you interested in?</label>
+                        <select id="interest" name="interest" required>
+                            <option value ="">Select an option</option>
+                            <option value="jakarta">Jakarta</option>
+                            <option value="bali">Bali</option>
+                            <option value="bedugul">Bedugul</option>
+                            <option value="monumen-kapal-selam">Monumen Kapal Selam</option>
+                            <option value="surabaya">Surabaya</option>
+                            <option value="malang">Malang</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn">SEND</button>
+                </form>
+            </section>
+
+            <!-- Our Package Content -->
+            <section id="our-package">
+                <header class="our-package-header">
+                    <h1>Our Package</h1>
+                </header>
+                <section class="our-package-container">
+                    <div class="feature">
+                        <h3>Jakarta</h3>
+                        <p>Jelajahi pesona Jakarta, dari gedung pencakar langit yang megah hingga warisan budaya yang memikat.</p>                
+                    </div>
+                    <div class="feature">
+                        <h3>Bali</h3>
+                        <p>Temukan surga di Bali, dari pantai eksotis hingga tradisi yang memukau.</p>                
+                    </div>
+                    <div class="feature">
+                        <h3>Bedugul</h3>
+                        <p>Nikmati kesejukan Bedugul, tempat keindahan danau berpadu dengan ketenangan alam.</p>                
+                    </div>
+                    <div class="feature">
+                        <h3>Monumen Kapal Selam</h3>
+                        <p>Jelajahi sejarah di Monumen Kapal Selam, saksi bisu kejayaan maritim Indonesia.</p>                
+                    </div>
+                    <div class="feature">
+                        <h3>Surabaya</h3>
+                        <p>Rasakan energi Surabaya, dari sejarah perjuangan hingga kehidupan kota yang dinamis.</p>                
+                    </div>
+                    <div class="feature">
+                        <h3>Malang</h3>
+                        <p>Nikmati kesejukan Malang, tempat indah untuk menjelajahi alam dan kuliner.</p>                
+                    </div>
+                </section>
+            </section>
+            <hr>
+
+            <!-- Call Us Content -->
+            <section class="call-us-content" id="call-us">
+                <h1>Get in Touch with Us!</h1>
+                <p>Jika Anda memiliki pertanyaan atau ada masalah, jangan ragu untuk menghubungi kami.</p>
+                <br>
+                <a href="#" class="btn">CALL TO ACTION</a>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <span>Made by r41d-41</span>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
 </html>
